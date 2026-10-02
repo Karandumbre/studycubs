@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StudyCubs
+
+StudyCubs is a modern online learning platform that helps students build confidence, skills, and real-world readiness through interactive courses in coding, public speaking, and financial planning.
+
+## Overview
+
+This project is built with Next.js and designed as a responsive, conversion-focused website for an education brand. It showcases courses, testimonials, FAQs, and booking flows to help visitors explore programs and connect with the platform.
+
+## Features
+
+- Landing page with strong conversion-focused sections
+- Course highlights for:
+  - Public speaking
+  - Coding
+  - Financial planning
+- Testimonials and student trust-building content
+- FAQ section for prospective learners
+- Calendar/booking integration for demo or enrollment sessions
+- Responsive design for desktop and mobile devices
+- Clean, modern UI built with Tailwind CSS
+
+## Tech Stack
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- Google APIs integration
+- React Icons
+
+## Project Structure
+
+```bash
+study-cubs/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── constants/
+│   ├── utils/
+│   └── types/
+├── public/
+├── package.json
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+├── eslint.config.mjs
+├── README.md
+└── .gitignore
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+```bash
+git clone <your-repository-url>
+cd study-cubs
+npm install
+```
+
+### Run the app
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Scripts
 
-## Learn More
+```bash
+npm run dev      # Start the development server
+npm run build    # Build the production app
+npm run start    # Start the production server
+npm run lint     # Run ESLint checks
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If your project later requires API keys or secrets, create a `.env.local` file in the project root and add the required values.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Example:
 
-## Deploy on Vercel
+```bash
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A few project screenshots are stored in the screenshots folder and can be showcased here:
+
+<div align="center">
+  <img src="public/screenshots/Screenshot%202026-10-02%20at%2011.05.06%E2%80%AFPM.png" alt="StudyCubs homepage preview" width="900" />
+</div>
+
+<div align="center">
+  <img src="public/screenshots/Screenshot%202026-10-02%20at%2011.05.17%E2%80%AFPM.png" alt="StudyCubs course section preview" width="900" />
+</div>
+
+<div align="center">
+  <img src="public/screenshots/Screenshot%202026-10-02%20at%2011.05.25%E2%80%AFPM.png" alt="StudyCubs testimonial section preview" width="900" />
+</div>
+
+<div align="center">
+  <img src="public/screenshots/Screenshot%202026-10-02%20at%2011.05.33%E2%80%AFPM.png" alt="StudyCubs additional preview" width="900" />
+</div>
+
+## Deployment
+
+This project is ready to be deployed on platforms like:
+
+- Vercel
+- Netlify
+- Any Node.js-compatible hosting platform
+
+For Vercel, the recommended deployment is usually straightforward with a standard Next.js project setup.
+
+## Contributing
+
+1. Create a feature branch
+2. Make your changes
+3. Run lint/build checks
+4. Open a pull request
+
+## License
+
+This project is currently unlicensed unless you add a specific license file for your organization.
+
+## Contact
+
+For business or course-related inquiries, use the contact and booking flows included in the website.
+
+---
+
+This README is intentionally structured so you can add screenshots and project details as you continue developing the site.
